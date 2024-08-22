@@ -18,7 +18,7 @@ const Workwith = () => {
                     <img src={WorkWith2} alt="work_with_2" />
                     <img src={WorkWith3} alt="work_with_3" />
                     <img src={WorkWith4} alt="work_with_4" />
-                    <img src={WorkWith5} alt="work_with_5" className='mx-auto' />
+                    <img src={WorkWith5} alt="work_with_5" className='lg:mx-0 mx-auto'/>
                 </div>
             </div>
         </Container>
