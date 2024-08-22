@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .sec_pad {
+        @apply py-[50px]
+    }
+    .heading {
+        @apply text-[36px] font-semibold pb-[20px]
+    }
+    .heading_res {
+        @apply text-[18px] font-semibold pb-[20px]
+    }
+    .para {
+        @apply text-[18px] font-normal leading-[35px] text-[#808080]
+    }
+    .para_res {
+        @apply text-[12px] font-normal leading-[30px] text-[#808080]
+    }
+}
+
+.slick-center {
+    background-color: white;
+    border-bottom: 5px solid #245D51;
+}
